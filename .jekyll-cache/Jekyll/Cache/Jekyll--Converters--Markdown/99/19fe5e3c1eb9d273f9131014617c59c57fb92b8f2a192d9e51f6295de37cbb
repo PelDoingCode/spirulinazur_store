@@ -1,4 +1,4 @@
-I"Y<!-- 
+I"d<!-- 
   <div class="product">
   <div class="product__information">
     <h2 class="product__title">Spiruline</h2>
@@ -9,7 +9,7 @@ Come on buy my spiruline !!!!
 </p>
 
     <button
-  class="buy-button button button--buy snipcart-add-item"
+  class="buy-button snipcart-add-item"
   data-item-id=""
   data-item-name="Spiruline"
   data-item-price="20"
@@ -39,7 +39,7 @@ Come on buy my spiruline !!!!
 
 
   <figure class="product snipcart-add-item"
-    data-item-id="/products/product1"
+    data-item-id="/products/product"
     data-item-name="Spiruline"
     data-item-price="20"
     data-item-url="/">
@@ -116,11 +116,12 @@ Come on buy my spiruline !!!!
 
 
   <figure class="product snipcart-add-item"
-    data-item-id="/products/product1"
+    data-item-id="/products/product"
     data-item-name="Spiruline"
     data-item-price="20"
-    data-item-url="/">
-    <img src="/assets/images/almond.jpg" alt="">
+    data-item-url="/"
+    data-item.image="">
+    <img src="/assets/images/almond.jpg" alt="Spiruline">
     <figcaption> Spiruline : best product on earth</figcaption>
   </figure>
 
