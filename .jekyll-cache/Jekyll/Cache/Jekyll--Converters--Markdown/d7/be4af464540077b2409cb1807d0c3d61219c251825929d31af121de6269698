@@ -1,0 +1,146 @@
+I"x<!-- 
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Spiruline</h2>
+    <p class="product__description">
+Come on buy my spiruline !!!!
+
+
+</p>
+
+    <button
+  class="buy-button snipcart-add-item"
+  data-item-id="spiruline"
+  data-item-name="Spiruline"
+  data-item-price="20"
+  data-item-url="https://snipcart-jekyll.netlify.com/"
+  data-item-description="
+Come on buy my spiruline !!!!
+
+
+">
+  Ajouter au panize : ($20)
+
+<a href=""></a>
+
+  <path>
+      
+
+
+<h2> ok la  whouwhou</h2>
+
+
+  </path>
+
+
+
+
+</button>
+
+<!--
+  <div hidden id="snipcart" data-api-key="<api_key>">
+   <item-line>
+       <li class="snipcart__item__line snipcart__box">
+           <div class="snipcart__item__line__product">
+               <div class="snipcart__item__line__header">
+                   <h2 class="snipcart__item__line__header__title">
+                       Spiruline
+                   </h2>
+
+                   <item-quantity class="snipcart__item__line__quantity" v-if="!adding"></item-quantity>
+                   <div class="snipcart__item__line__header__actions">
+                       <remove-item-action class="snipcart__button--icon">
+                           <icon name="trash" class="icon--red"  alt="item.remove_item"></icon>
+                            
+
+
+<h2> ok la  whouwhou</h2>
+
+                       </remove-item-action>
+                   </div>
+               </div>
+           </div>
+       </li>
+   </item-line>
+</div>
+ -->
+
+<p>&lt;/div&gt;
+&lt;/div&gt;</p>
+
+<p>–&gt;</p>
+
+<div class="text-color">
+
+  <h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+  <h4> Laissez-nous prendre soin de vous. </h4>
+
+  
+    <div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Spiruline</h2>
+    <p class="product__description">
+Come on buy my spiruline !!!!
+
+
+</p>
+
+    <button class="buy-button snipcart-add-item" data-item-id="spiruline" data-item-name="Spiruline" data-item-price="20" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="
+Come on buy my spiruline !!!!
+
+
+">
+  Ajouter au panize : ($20)
+
+<a href=""></a>
+
+  <path>
+      
+
+
+<h2> ok la  whouwhou</h2>
+
+
+  </path>
+
+
+
+
+</button>
+
+<!--
+  <div hidden id="snipcart" data-api-key="<api_key>">
+   <item-line>
+       <li class="snipcart__item__line snipcart__box">
+           <div class="snipcart__item__line__product">
+               <div class="snipcart__item__line__header">
+                   <h2 class="snipcart__item__line__header__title">
+                       Spiruline
+                   </h2>
+
+                   <item-quantity class="snipcart__item__line__quantity" v-if="!adding"></item-quantity>
+                   <div class="snipcart__item__line__header__actions">
+                       <remove-item-action class="snipcart__button--icon">
+                           <icon name="trash" class="icon--red"  alt="item.remove_item"></icon>
+                            
+
+
+<h2> ok la  whouwhou</h2>
+
+                       </remove-item-action>
+                   </div>
+               </div>
+           </div>
+       </li>
+   </item-line>
+</div>
+ -->
+
+  </div>
+</div>
+
+  
+
+</div>
+:ET

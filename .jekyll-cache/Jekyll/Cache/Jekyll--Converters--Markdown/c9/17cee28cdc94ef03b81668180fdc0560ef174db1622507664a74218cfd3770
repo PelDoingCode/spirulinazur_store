@@ -1,4 +1,4 @@
-I"ù<!-- 
+I"Y<!-- 
   <div class="product">
   <div class="product__information">
     <h2 class="product__title">Spiruline</h2>
@@ -13,17 +13,32 @@ Come on buy my spiruline !!!!
   data-item-id="spiruline"
   data-item-name="Spiruline"
   data-item-price="20"
-  data-item-image=""
   data-item-url="https://snipcart-jekyll.netlify.com/"
   data-item-description="
 Come on buy my spiruline !!!!
 
 
 ">
-  Add to cart ($20)
+  Ajouter au panize : ($20)
+
+<a href=""></a>
+
+  <path>
+      
+
+
+<h2> ok la  whouwhou</h2>
+
+
+  </path>
+
+
+
+
+
 </button>
 
-
+    <h1> TESTTTTTTTTT </h1>
   </div>
 </div>
 
@@ -45,15 +60,31 @@ Come on buy my spiruline !!!!
 
 </p>
 
-    <button class="buy-button snipcart-add-item" data-item-id="spiruline" data-item-name="Spiruline" data-item-price="20" data-item-image="" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="
+    <button class="buy-button snipcart-add-item" data-item-id="spiruline" data-item-name="Spiruline" data-item-price="20" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="
 Come on buy my spiruline !!!!
 
 
 ">
-  Add to cart ($20)
+  Ajouter au panize : ($20)
+
+<a href=""></a>
+
+  <path>
+      
+
+
+<h2> ok la  whouwhou</h2>
+
+
+  </path>
+
+
+
+
+
 </button>
 
-
+    <h1> TESTTTTTTTTT </h1>
   </div>
 </div>
 
