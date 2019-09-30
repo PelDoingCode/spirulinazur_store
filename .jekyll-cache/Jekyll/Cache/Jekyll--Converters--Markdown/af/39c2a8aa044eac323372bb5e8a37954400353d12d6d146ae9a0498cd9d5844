@@ -1,0 +1,62 @@
+I"�<!-- 
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Spiruline</h2>
+    <p class="product__description">
+Come on buy my spiruline !!!!
+
+
+</p>
+
+    <button
+  class="buy-button snipcart-add-item"
+  data-item-id="spiruline"
+  data-item-name="Spiruline"
+  data-item-price="20"
+  data-item-url="https://snipcart-jekyll.netlify.com/"
+  data-item-description="
+Come on buy my spiruline !!!!
+
+
+">
+  Ajouter au panize : ($20)
+</button>
+
+    <h1> test </h1>
+  </div>
+</div>
+
+ -->
+
+<div class="text-color">
+
+  <h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+  <h4> Laissez-nous prendre soin de vous. </h4>
+
+  
+    <div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Spiruline</h2>
+    <p class="product__description">
+Come on buy my spiruline !!!!
+
+
+</p>
+
+    <button class="buy-button snipcart-add-item" data-item-id="spiruline" data-item-name="Spiruline" data-item-price="20" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="
+Come on buy my spiruline !!!!
+
+
+">
+  Ajouter au panize : ($20)
+</button>
+
+    <h1> test </h1>
+  </div>
+</div>
+
+  
+
+</div>
+:ET

@@ -5,5 +5,12 @@
   data-item-price="{{ product.price }}"
   data-item-url="https://snipcart-jekyll.netlify.com{{ page.url }}"
   data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
-  Ajouter au panier (${{ product.price }})
+  Ajouter au panize : (${{ product.price }})
+
+<a href="{{ form_achat.html }}">{{ form_achat.html }}</a>
+
+  <path>
+      {% include form_achat.html %}
+
+  </path>
 </button>
