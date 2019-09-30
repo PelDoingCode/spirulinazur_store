@@ -2,3 +2,49 @@
 
 
 <h2> ok la  whouwhou</h2>
+<h1> card test </h1>
+
+<div id="snipcart" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5">
+</div>
+
+
+  <figure class="product snipcart-add-item"
+    data-item-id="{{ product.id }}"
+    data-item-name="{{ product.title }}"
+    data-item-price="{{ product.price }}"
+    data-item-url="{{ page.url }}">
+
+    <figcaption> {{ product.title }} </figcaption>
+    <h1> the product </h1>
+  </figure>
+
+
+
+<h1> end card test </h1>
+
+
+<span class="snipcart-items-count"></span>
+<span class="snipcart-total-price"></span>
+<h1> end card test </h1>
+
+
+<div hidden id="snipcart" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5">
+   <item-line>
+       <li class="snipcart__item__line snipcart__box">
+           <div class="snipcart__item__line__product">
+               <div class="snipcart__item__line__header">
+                   <h2 class="snipcart__item__line__header__title">
+                       {{ item.name }}
+                   </h2>
+
+                   <item-quantity class="snipcart__item__line__quantity" v-if="!adding"></item-quantity>
+                   <div class="snipcart__item__line__header__actions">
+                       <remove-item-action class="snipcart__button--icon">
+                           <icon name="trash" class="icon--red"  alt="item.remove_item"></icon>
+                       </remove-item-action>
+                   </div>
+               </div>
+           </div>
+       </li>
+   </item-line>
+</div>
