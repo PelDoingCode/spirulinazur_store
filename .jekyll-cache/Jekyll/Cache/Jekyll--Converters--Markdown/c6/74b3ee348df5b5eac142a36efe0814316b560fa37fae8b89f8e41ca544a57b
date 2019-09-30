@@ -1,0 +1,43 @@
+I"�
+<div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Starry Night</h2>
+    <img src="/assets/images/starry-night.jpg" alt="Starry Night product image" class="product__image" />
+    <p class="product__description">This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive diractance we were able to reproduce the original colours with a 99.99% accuracy.
+</p>
+    <button class="buy-button snipcart-add-item" data-item-id="jekyll-starry-night" data-item-name="Starry Night" data-item-price="79.95" data-item-image="/assets/images/starry-night.jpg" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive diractance we were able to reproduce the original colours with a 99.99% accuracy.
+">
+  Add to cart ($79.95)
+</button>
+  </div>
+  <img src="/assets/images/starry-night.jpg" alt="Starry Night product image" class="product__image" />
+</div>
+
+<div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Irises</h2>
+    <img src="/assets/images/irises.jpg" alt="Irises product image" class="product__image" />
+    <p class="product__description">Irises is yet again, another painting by the Dutch artist Vincent van Gogh. Using advanced techniques only achievable with a drawn reciprocation dingle arm to reduce sinusoidal depleneration, we we’re able to create a picture perfect replica.
+</p>
+    <button class="buy-button snipcart-add-item" data-item-id="jekyll-irises" data-item-name="Irises" data-item-price="64.95" data-item-image="/assets/images/irises.jpg" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="Irises is yet again, another painting by the Dutch artist Vincent van Gogh. Using advanced techniques only achievable with a drawn reciprocation dingle arm to reduce sinusoidal depleneration, we we’re able to create a picture perfect replica.
+">
+  Add to cart ($64.95)
+</button>
+  </div>
+  <img src="/assets/images/irises.jpg" alt="Irises product image" class="product__image" />
+</div>
+
+<div class="product">
+  <div class="product__information">
+    <h2 class="product__title">Branches with Almond Blossom</h2>
+    <img src="/assets/images/almond.jpg" alt="Branches with Almond Blossom product image" class="product__image" />
+    <p class="product__description">Branches with Almond Blossom is another van Gogh painted in 1890. The printer used for this replica consists simply of six hydrocopic marzel vanes fitted to the ambiphasient lunar wane shaft to prevent side fumbling.
+</p>
+    <button class="buy-button snipcart-add-item" data-item-id="jekyll-almond" data-item-name="Branches with Almond Blossom" data-item-price="99.95" data-item-image="/assets/images/almond.jpg" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="Branches with Almond Blossom is another van Gogh painted in 1890. The printer used for this replica consists simply of six hydrocopic marzel vanes fitted to the ambiphasient lunar wane shaft to prevent side fumbling.
+">
+  Add to cart ($99.95)
+</button>
+  </div>
+  <img src="/assets/images/almond.jpg" alt="Branches with Almond Blossom product image" class="product__image" />
+</div>
+:ET
