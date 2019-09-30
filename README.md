@@ -1,1 +1,2 @@
-snipcart-jekyll
+
+# AIM OF THIS REPO : PUT SHOPIFY OUT OF THE E-COMMERCE GAME
