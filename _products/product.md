@@ -8,6 +8,7 @@ weigth3: 500
 forme1: cachet
 forme2: pallettes
 description: best product on earth
+image: "/assets/images/almond.jpg"
 ---
 
 <p>
