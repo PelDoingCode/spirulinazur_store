@@ -1,0 +1,43 @@
+I"�<!-- 
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title"></h2>
+    <img src="" alt=" product image" class="product__image">
+    <p class="product__description">This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive diractance we were able to reproduce the original colours with a 99.99% accuracy.
+</p>
+    <button
+  class="buy-button snipcart-add-item"
+  data-item-id="jekyll-starry-night"
+  data-item-name=""
+  data-item-price=""
+  data-item-image=""
+  data-item-url="https://snipcart-jekyll.netlify.com/"
+  data-item-description="This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive diractance we were able to reproduce the original colours with a 99.99% accuracy.
+">
+  Add to cart ($)
+</button>
+  </div>
+  <img src="" alt=" product image" class="product__image">
+</div>
+ -->
+
+<div class="text-color">
+
+  <h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+  <h4> Laissez-nous prendre soin de vous. </h4>
+
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title"></h2>
+    <img src="" alt=" product image" class="product__image" />
+    <p class="product__description"></p>
+    <button class="buy-button snipcart-add-item" data-item-id="" data-item-name="" data-item-price="" data-item-image="" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="">
+  Add to cart ($)
+</button>
+  </div>
+  <img src="" alt=" product image" class="product__image" />
+</div>
+
+</div>
+:ET

@@ -1,0 +1,43 @@
+I"<!-- 
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title"></h2>
+    <img src="" alt=" product image" class="product__image">
+    <p class="product__description">Come on buy my spiruline !!!!
+</p>
+    <button
+  class="buy-button snipcart-add-item"
+  data-item-id="spiruline"
+  data-item-name=""
+  data-item-price=""
+  data-item-image=""
+  data-item-url="https://snipcart-jekyll.netlify.com/"
+  data-item-description="Come on buy my spiruline !!!!
+">
+  Add to cart ($)
+</button>
+  </div>
+  <img src="" alt=" product image" class="product__image">
+</div>
+ -->
+
+<div class="text-color">
+
+  <h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+  <h4> Laissez-nous prendre soin de vous. </h4>
+
+  <div class="product">
+  <div class="product__information">
+    <h2 class="product__title"></h2>
+    <img src="" alt=" product image" class="product__image" />
+    <p class="product__description"></p>
+    <button class="buy-button snipcart-add-item" data-item-id="" data-item-name="" data-item-price="" data-item-image="" data-item-url="https://snipcart-jekyll.netlify.com/" data-item-description="">
+  Add to cart ($)
+</button>
+  </div>
+  <img src="" alt=" product image" class="product__image" />
+</div>
+
+</div>
+:ET
