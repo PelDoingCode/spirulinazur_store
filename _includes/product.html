@@ -1,25 +1,27 @@
-<div class="product">
+<!-- <div class="product">
   <div class="product__information">
     <h2 class="product__title">{{ product.title }}</h2>
-    <p class="product__description">{{ product.content | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="product__description">{{ product.description | remove: '<p>' | remove: '</p>' }}</p>
 
     {% include product-definition.html %}
   </div>
 </div>
-
+ -->
 
 
   <figure class="product snipcart-add-item"
     data-item-id="{{ product.id }}"
     data-item-name="{{ product.title }}"
     data-item-price="{{ product.price }}"
-    data-item-url="{{ page.url }}"
-    data-item.image="{{ product.imgage }}">
-    <img src="/assets/images/almond.jpg" alt="{{ product.title }}">
+    data-item-url="{{ page.url }}">
     <figcaption> {{ product.title }} : {{ product.description }}</figcaption>
   </figure>
 
 
+<!--
+
 <p>
   product on sale : {{ product.title }}
 </p>
+
+ -->

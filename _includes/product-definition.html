@@ -1,16 +1,16 @@
 <button
   class="buy-button snipcart-add-item"
-  data-item-id="{{ product.identifier }}"
+  data-item-id="{{ product.id }}"
   data-item-name="{{ product.title }}"
   data-item-price="{{ product.price }}"
-  data-item-url="https://snipcart-jekyll.netlify.com{{ page.url }}"
+  data-item-url="{{ page.url }}"
   data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
   Achetes de la spiruline : (${{ product.price }})
 
 </button>
 
 
-
+<!--
 <a href="{{ form_achat.html }}">{{ form_achat.html }}
 
   <path>
@@ -19,11 +19,12 @@
   </path>
 
 
-</a>
-      {% include card.html %}
+</a> -->
 
 
+<!--       {% include card.html %}
+ -->
 
 
-
-<button class="snipcart-checkout">Click here to checkout</button>
+<!-- <button class="snipcart-checkout">Click here to checkout</button>
+ -->

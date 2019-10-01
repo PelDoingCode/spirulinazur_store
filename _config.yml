@@ -28,6 +28,7 @@ instagram_username: spirulinazur
 github_username:  PelDoingCode
 facebook_page : spirulinazur
 
+
 # Build settings
 plugins:
   - jekyll-feed

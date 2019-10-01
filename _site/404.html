@@ -13,7 +13,9 @@
 
   <link rel="stylesheet" href="/assets/main.css">
 
-  <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.js"></script>
+
+  <!-- snipcart default config :  -->
+
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.css" />
 
 
@@ -26,13 +28,23 @@
 
   <!-- snipcart initilization :  -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
   <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5" id="snipcart"></script>
 
-  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" /> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1"></script>
+
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 
 </head>
+
+
 
 
 
@@ -81,21 +93,17 @@
 
 
   
-    <div class="product">
+    <!-- <div class="product">
   <div class="product__information">
     <h2 class="product__title">Spiruline</h2>
-    <p class="product__description">
-Come on buy my spiruline !!!!
-
-
-</p>
+    <p class="product__description">best product on earth</p>
 
     <button
   class="buy-button snipcart-add-item"
-  data-item-id=""
+  data-item-id="/products/product"
   data-item-name="Spiruline"
   data-item-price="20"
-  data-item-url="https://snipcart-jekyll.netlify.com/404.html"
+  data-item-url="/404.html"
   data-item-description="
 Come on buy my spiruline !!!!
 
@@ -106,7 +114,7 @@ Come on buy my spiruline !!!!
 </button>
 
 
-
+<!--
 <a href="">
 
   <path>
@@ -116,7 +124,8 @@ Come on buy my spiruline !!!!
 <h2> ok la  whouwhou</h2>
 <h1> card test </h1>
 
-<div id="snipcart" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5">
+<div id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
+">
 </div>
 
 
@@ -140,7 +149,8 @@ Come on buy my spiruline !!!!
 <h1> end card test </h1>
 
 
-<div hidden id="snipcart" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5">
+<div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
+">
    <item-line>
        <li class="snipcart__item__line snipcart__box">
            <div class="snipcart__item__line__product">
@@ -162,14 +172,17 @@ Come on buy my spiruline !!!!
 </div>
 
 
+
   </path>
 
 
-</a>
-      <h1> card test </h1>
+</a> -->
+
+
+<!--       <h1> card test </h1>
 
 <figure class="product snipcart-add-item"
-  data-item-id=""
+  data-item-id="/products/product"
   data-item-name="Spiruline"
   data-item-price="20"
   data-item-url="https://snipcart-jekyll.netlify.com/404.html"
@@ -185,32 +198,33 @@ Come on buy my spiruline !!!!
 
 <h1> end card test </h1>
 
+ -->
 
 
-
-
-
-<button class="snipcart-checkout">Click here to checkout</button>
+<!-- <button class="snipcart-checkout">Click here to checkout</button>
+ -->
 
   </div>
 </div>
-
+ -->
 
 
   <figure class="product snipcart-add-item"
     data-item-id="/products/product"
     data-item-name="Spiruline"
     data-item-price="20"
-    data-item-url="/404.html"
-    data-item.image="">
-    <img src="/assets/images/almond.jpg" alt="Spiruline">
+    data-item-url="/404.html">
     <figcaption> Spiruline : best product on earth</figcaption>
   </figure>
 
 
+<!--
+
 <p>
   product on sale : Spiruline
 </p>
+
+ -->
 
   
 
@@ -224,7 +238,7 @@ Come on buy my spiruline !!!!
   </div>
 </footer>
 
-  <div hidden id="snipcart" data-api-key="S_NzBhZjU3MDQtNjczYy00ZWQwLWE2OTUtMDhkNTIyMzc4NWZmNjM3MDU0NTE0MjQzMzkxNTU5"></div>
+  <div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1"></div>
   <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.js"></script>
 
 </body>
