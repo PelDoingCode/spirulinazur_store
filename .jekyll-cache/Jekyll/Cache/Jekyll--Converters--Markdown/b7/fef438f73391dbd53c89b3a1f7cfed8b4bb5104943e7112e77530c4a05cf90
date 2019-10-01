@@ -1,4 +1,4 @@
-I"�<h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+I"&	<h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
 
 <h4> Laissez-nous prendre soin de vous. </h4>
 
@@ -12,6 +12,13 @@
 
 
 
+
+</div>
+<div>
+
+  <a href="#" class="snipcart-add-item buy-button" data-item-id="" data-item-name="Rework" data-item-url="http://myapp.com/products/bacon" data-item-description="A custom tshirt" data-item-custom2-name="Type" data-item-custom2-options="cachet|palleitte" data-item-custom3-name="Quantité" data-item-custom3-options="100g|200g[+10.00]|500g[+20.00]|1000g[+30.00]" data-item-price="39.99">
+     Buy now
+  </a>
 
 </div>
 
@@ -37,6 +44,13 @@
 
 
 
+
+</div>
+<div>
+
+  <a href="#" class="snipcart-add-item buy-button" data-item-id="" data-item-name="Spiruline" data-item-url="http://myapp.com/products/bacon" data-item-description="A custom tshirt" data-item-custom2-name="Type" data-item-custom2-options="cachet|palleitte" data-item-custom3-name="Quantité" data-item-custom3-options="100g|200g[+10.00]|500g[+20.00]|1000g[+30.00]" data-item-price="20.0">
+     Buy now
+  </a>
 
 </div>
 
