@@ -11,10 +11,14 @@
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
+    {% for script in layout.head %}
+      {% include {{ script }} %}
+    {% endfor %}
 
   <!-- snipcart default config :  -->
 
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.css" />
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">

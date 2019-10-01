@@ -1,0 +1,92 @@
+
+
+to make direct to the panier :
+
+<button
+  class="buy-button snipcart-add-item"
+  data-item-id="{{ product.id }}"
+  data-item-name="{{ product.title }}"
+  data-item-price="{{ product.price }}"
+  data-item-url="{{ page.url }}"
+  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+  Achetes de la spiruline : (${{ product.price }})
+
+</button>
+
+
+
+
+
+not working :
+<h1> card test </h1>
+
+<figure class="product snipcart-add-item"
+  data-item-id="{{ product.id }}"
+  data-item-name="{{ product.title }}"
+  data-item-price="{{ product.price }}"
+  data-item-url="https://snipcart-jekyll.netlify.com{{ page.url }}"
+  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+
+  <figcaption> {{ product.title }} </figcaption>
+
+</figure>
+
+<h1> end card test </h1>
+
+
+
+product def :
+
+<button
+  class="buy-button snipcart-add-item"
+  data-item-id="{{ product.id }}"
+  data-item-name="{{ product.title }}"
+  data-item-price="{{ product.price }}"
+  data-item-url="{{ page.url }}"
+  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+  Achetes de la spiruline : (${{ product.price }})
+
+</button>
+
+
+<!--
+<a href="{{ form_achat.html }}">{{ form_achat.html }}
+
+  <path>
+      {% include form_achat.html %}
+
+  </path>
+
+
+</a> -->
+
+
+<!--       {% include card.html %}
+ -->
+
+
+<!-- <button class="snipcart-checkout">Click here to checkout</button>
+ -->
+
+
+useless:
+
+
+<h2> ok la  whouwhou</h2>
+<h1> card test </h1>
+
+<div id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
+">
+</div>
+
+
+  <figure class="product snipcart-add-item"
+    data-item-id="{{ product.id }}"
+    data-item-name="{{ product.title }}"
+    data-item-price="{{ product.price }}"
+    data-item-url="{{ page.url }}">
+
+    <figcaption> {{ product.title }} </figcaption>
+    <h1> the product </h1>
+  </figure>
+

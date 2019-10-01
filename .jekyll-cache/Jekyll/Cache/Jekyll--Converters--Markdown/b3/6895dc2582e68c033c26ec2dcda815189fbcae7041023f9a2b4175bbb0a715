@@ -1,0 +1,25 @@
+I"R<h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+<h4> Laissez-nous prendre soin de vous. </h4>
+
+<div class="product">
+
+
+  <h1> button to buy : </h1>
+  <button class="snipcart-add-item" data-item-name="Rework" data-item-id="SW" data-item-image="http://d.gr-assets.com/books/1391275636l/6732019.jpg" data-item-url="" data-item-price="39.99">
+    Buy it for 39.99 $
+  </button>
+
+</div>
+
+<div class="product">
+
+
+  <h1> button to buy : </h1>
+  <button class="snipcart-add-item" data-item-name="Spiruline" data-item-id="SW" data-item-image="https://image.jimcdn.com/app/cms/image/transf/dimension=192x1000:format=jpg/path/s07886bfe8e83bcce/image/i43d09f23e5c7c30d/version/1487448482/spiruline-paillettes-producteur-france.jpg" data-item-url="" data-item-price="20.0">
+    Buy it for 20.0 $
+  </button>
+
+</div>
+
+:ET

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +13,12 @@
 
   <link rel="stylesheet" href="/assets/main.css">
 
+    
 
   <!-- snipcart default config :  -->
 
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.css" />
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
   <link rel="canonical" href="http://localhost:4000/404.html">
@@ -49,6 +51,7 @@
 
 
 <body>
+
   <header class="header">
   <div class="header__container">
     <a class="header__branding" href="/">
@@ -66,9 +69,9 @@
   </div>
 </header>
 
-  <main class="main">
-    <div class="products">
-      <style type="text/css" media="screen">
+  <div class="products">
+
+    <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -89,147 +92,23 @@
   <p>Votre requête n'a pas abouti, page non existante, revenez en arrière ! </p>
 </div>
 
+  <div class="product">
 
 
+  <h1> button to buy : </h1>
+  <button class="snipcart-add-item"
+    data-item-name=""
+    data-item-id=""
+    data-item-image=""
+    data-item-url=""
+    data-item-price="">
+    Buy it for  $
+  </button>
 
-  
-    <!-- <div class="product">
-  <div class="product__information">
-    <h2 class="product__title">Spiruline</h2>
-    <p class="product__description">best product on earth</p>
-
-    <button
-  class="buy-button snipcart-add-item"
-  data-item-id="/products/product"
-  data-item-name="Spiruline"
-  data-item-price="20"
-  data-item-url="/404.html"
-  data-item-description="
-Come on buy my spiruline !!!!
-
-
-">
-  Achetes de la spiruline : ($20)
-
-</button>
-
-
-<!--
-<a href="">
-
-  <path>
-      
-
-
-<h2> ok la  whouwhou</h2>
-<h1> card test </h1>
-
-<div id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
-">
 </div>
 
-
-  <figure class="product snipcart-add-item"
-    data-item-id="/products/product"
-    data-item-name="Spiruline"
-    data-item-price="20"
-    data-item-url="/404.html">
-
-    <figcaption> Spiruline </figcaption>
-    <h1> the product </h1>
-  </figure>
-
-
-
-<h1> end card test </h1>
-
-
-<span class="snipcart-items-count"></span>
-<span class="snipcart-total-price"></span>
-<h1> end card test </h1>
-
-
-<div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
-">
-   <item-line>
-       <li class="snipcart__item__line snipcart__box">
-           <div class="snipcart__item__line__product">
-               <div class="snipcart__item__line__header">
-                   <h2 class="snipcart__item__line__header__title">
-                       
-                   </h2>
-
-                   <item-quantity class="snipcart__item__line__quantity" v-if="!adding"></item-quantity>
-                   <div class="snipcart__item__line__header__actions">
-                       <remove-item-action class="snipcart__button--icon">
-                           <icon name="trash" class="icon--red"  alt="item.remove_item"></icon>
-                       </remove-item-action>
-                   </div>
-               </div>
-           </div>
-       </li>
-   </item-line>
-</div>
-
-
-
-  </path>
-
-
-</a> -->
-
-
-<!--       <h1> card test </h1>
-
-<figure class="product snipcart-add-item"
-  data-item-id="/products/product"
-  data-item-name="Spiruline"
-  data-item-price="20"
-  data-item-url="https://snipcart-jekyll.netlify.com/404.html"
-  data-item-description="
-Come on buy my spiruline !!!!
-
-
-">
-
-  <figcaption> Spiruline </figcaption>
-
-</figure>
-
-<h1> end card test </h1>
-
- -->
-
-
-<!-- <button class="snipcart-checkout">Click here to checkout</button>
- -->
 
   </div>
-</div>
- -->
-
-
-  <figure class="product snipcart-add-item"
-    data-item-id="/products/product"
-    data-item-name="Spiruline"
-    data-item-price="20"
-    data-item-url="/404.html">
-    <figcaption> Spiruline : best product on earth</figcaption>
-  </figure>
-
-
-<!--
-
-<p>
-  product on sale : Spiruline
-</p>
-
- -->
-
-  
-
-    </div>
-  </main>
 
   <footer class="footer">
   <div class="footer__content">
@@ -237,6 +116,8 @@ Come on buy my spiruline !!!!
       <div class="footer__socials"><a href="https://www.instagram.com/spirulinazur/?hl=fr">Instagram</a> | <a href="https://www.facebook.com/" target="_blank">Facebook</a> | <a href="https://www.spirulinazur.com/" target="_blank">Newsletter</a> </div>
   </div>
 </footer>
+
+
 
   <div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1"></div>
   <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.js"></script>

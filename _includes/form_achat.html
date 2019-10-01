@@ -1,32 +1,13 @@
 
 
 
-<h2> ok la  whouwhou</h2>
-<h1> card test </h1>
-
-<div id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
-">
-</div>
 
 
-  <figure class="product snipcart-add-item"
-    data-item-id="{{ product.id }}"
-    data-item-name="{{ product.title }}"
-    data-item-price="{{ product.price }}"
-    data-item-url="{{ page.url }}">
-
-    <figcaption> {{ product.title }} </figcaption>
-    <h1> the product </h1>
-  </figure>
-
-
-
-<h1> end card test </h1>
-
+<h1> Number of item : </h1>
 
 <span class="snipcart-items-count"></span>
+<h1> Total price for  {{ product.name }} :</h1>
 <span class="snipcart-total-price"></span>
-<h1> end card test </h1>
 
 
 <div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1
@@ -36,7 +17,7 @@
            <div class="snipcart__item__line__product">
                <div class="snipcart__item__line__header">
                    <h2 class="snipcart__item__line__header__title">
-                       {{ item.name }}
+                       {{ product.name }}
                    </h2>
 
                    <item-quantity class="snipcart__item__line__quantity" v-if="!adding"></item-quantity>

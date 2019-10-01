@@ -1,0 +1,19 @@
+I"_<h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+<h4> Laissez-nous prendre soin de vous. </h4>
+
+<div class="product">
+
+  <a class="product" href="/products/rework.html">
+    <img src="http://d.gr-assets.com/books/1391275636l/6732019.jpg" alt="Rework" class="thumbnail" />
+    <p>Rework</p>
+  </a>
+
+  <h1> button to buy : </h1>
+  <button class="snipcart-add-item" data-item-name="Rework" data-item-id="SW" data-item-image="http://d.gr-assets.com/books/1391275636l/6732019.jpg" data-item-url="" data-item-price="39.99">
+    Buy it for 39.99 $
+  </button>
+
+</div>
+
+:ET

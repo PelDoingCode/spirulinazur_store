@@ -1,0 +1,36 @@
+I"q<h3> Spiruline,  le super-aliment pour booster votre <br /> énergie toute la journée.</h3>
+
+<h4> Laissez-nous prendre soin de vous. </h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1&gt; Call for action to buy the product : &lt;/h1&gt;
+</code></pre></div></div>
+
+<p><a class="product" href="/products/rework.html">
+    &lt;p&gt;Rework&lt;/p&gt;
+  </a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;button
+
+  class="buy-button snipcart-add-item"
+  data-item-id="/products/rework"
+  data-item-name="Rework"
+  data-item-price="39.99"
+  data-item-url=""
+
+  data-item-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend. Phasellus ut feugiat tellus, vitae malesuada mi. Sed placerat ultrices enim, id fermentum ante tincidunt nec. Nulla ut mi bibendum, sodales ex ut, tempor odio. Mauris finibus elit eget ornare efficitur. Fusce a mauris vitae lorem. "&gt;
+  Achetes de la spiruline : 39.99 $
+
+&lt;/button&gt;
+</code></pre></div></div>
+
+<!--   <figure class="product snipcart-add-item"
+    data-item-id="/products/rework"
+    data-item-name="Rework"
+    data-item-price="39.99"
+    data-item-url="/">
+    <figcaption> Rework : </figcaption>
+  </figure>
+ -->
+<p><!-- <button class="snipcart-checkout">Click here to checkout</button> --></p>
+
+:ET

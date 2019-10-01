@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-{% include head.html %}
+<html>
+  {% include head.html %}
 
 
 
 
 <body>
+
   {% include header.html %}
-  <main class="main">
-    <div class="products">
-      {{ content }}
+  <div class="products">
 
+    {{ content }}
+  {% include product.html %}
 
-
-  {% for product in site.products %}
-    {% include product.html %}
-  {% endfor %}
-
-    </div>
-  </main>
+  </div>
 
   {% include footer.html %}
+
+
   <div hidden id="snipcart" data-api-key="NDJiYzYwOTMtNDJjNC00ZDRhLTkwOWUtZTdkYjQzMTYzNzY5NjM3MDU0MzQzNzg4MDk1MDU1"></div>
   <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.4.1/default/snipcart.js"></script>
 
