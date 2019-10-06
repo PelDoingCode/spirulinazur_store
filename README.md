@@ -1,3 +1,2 @@
-
-# AIM OF THIS REPO : PUT SHOPIFY OUT OF THE E-COMMERCE GAME
-
+It's just the begining of a project (just some playaround on jekyll and some API).
+The real code for the project of the website I did is private. 
